@@ -18,7 +18,6 @@ public class CalculatorApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 298, 537);
         scene.setFill(Color.TRANSPARENT);
         stage.setResizable(false);
-        stage.setResizable(false);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Calculator");
         scene.setOnMousePressed(event -> {
